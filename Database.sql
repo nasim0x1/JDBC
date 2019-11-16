@@ -26,10 +26,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `dpi`
+-- Table structure for table `TABLE_NAME`
 --
 
-CREATE TABLE `dpi` (
+CREATE TABLE `TABLE_NAME` (
   `roll` int(11) NOT NULL,
   `semester` text NOT NULL,
   `technology` text NOT NULL,
@@ -39,10 +39,10 @@ CREATE TABLE `dpi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `dpi`
+-- Dumping data for table `TABLE_NAME`
 --
 
-INSERT INTO `dpi` (`roll`, `semester`, `technology`, `shift`, `group`, `Name`) VALUES
+INSERT INTO `TABLE_NAME` (`roll`, `semester`, `technology`, `shift`, `group`, `Name`) VALUES
 (901236, '5th', 'Computer Science ', 'First ', 'A', 'Morsalin Mondol'),
 (901252, '5th', 'Computer Science ', 'First ', 'A', 'Nuhin Nabi'),
 (901253, '5th', 'Computer Science', 'First', 'A', 'Al-Amin Islam Sakib'),
@@ -53,9 +53,9 @@ INSERT INTO `dpi` (`roll`, `semester`, `technology`, `shift`, `group`, `Name`) V
 --
 
 --
--- Indexes for table `dpi`
+-- Indexes for table `TABLE_NAME`
 --
-ALTER TABLE `dpi`
+ALTER TABLE `TABLE_NAME`
   ADD PRIMARY KEY (`roll`);
 
 --
@@ -63,7 +63,7 @@ ALTER TABLE `dpi`
 --
 
 --
--- AUTO_INCREMENT for table `dpi`
+-- AUTO_INCREMENT for table `TABLE_NAME`
 --
 ALTER TABLE `dpi`
   MODIFY `roll` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=901262;
