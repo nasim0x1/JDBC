@@ -11,7 +11,7 @@
         `Name` text NOT NULL
       ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
       
-      ##### `Or Import Database.sql File on Admin Plnel`
+  ##### `Or Import Database.sql File on Admin Plnel`
 
 ##### `Java Main`
 
